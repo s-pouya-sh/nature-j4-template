@@ -139,6 +139,12 @@ $stickyHeader = $params->get('stickyHeader') ? 'position-sticky sticky-top' : ''
 include 'templates/nature/includes/favicons.php';
 
 $this->setMetaData('viewport', 'width=device-width, initial-scale=1');
+
+// Add RTL CSS if direction is RTL
+if ($this->direction === 'rtl') {
+    $wa->registerAndUseStyle('template-rtl', $templatePath . '/css/rtl.css');
+    $this->getPreloadManager()->preload($wa->getAsset('style', 'template-rtl')->getUri() . '?' . $this->getMediaVersion(), ['as' => 'style']);
+}
 ?>
 
 <!DOCTYPE html>

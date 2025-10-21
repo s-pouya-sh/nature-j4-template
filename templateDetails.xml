@@ -51,7 +51,12 @@
 		<language tag="de-DE">de-DE/tpl_nature.sys.ini</language>
 		<language tag="en-GB">en-GB/tpl_nature.ini</language>
 		<language tag="en-GB">en-GB/tpl_nature.sys.ini</language>
+		<language tag="ar-AA">ar-AA/tpl_nature.ini</language>
+		<language tag="ar-AA">ar-AA/tpl_nature.sys.ini</language>
 	</languages>
+	<files>
+		<filename>css/rtl.css</filename>
+	</files>
 	<config>
 		<fields name="params">
 			<fieldset name="advanced">

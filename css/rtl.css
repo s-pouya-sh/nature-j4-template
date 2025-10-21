@@ -1,0 +1,31 @@
+/*
+ * @package     Joomla.Site
+ * @subpackage  Templates.nature
+ *
+ * @copyright   (C) 2021 Dr. Menzel IT. <https://www.dr-menzel-it.de>
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+/* Add your RTL specific styles here */
+body.rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+body.rtl .pull-left {
+    float: right;
+}
+
+body.rtl .pull-right {
+    float: left;
+}
+
+/* Example: Adjusting padding/margin for RTL */
+body.rtl .some-element {
+    padding-left: 0;
+    padding-right: 15px;
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+/* More specific RTL adjustments as needed */
